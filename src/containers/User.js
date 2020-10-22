@@ -11,6 +11,7 @@ const User = ({ user }) => {
                 <p className="User__details-name">{name}</p>
                 <p className="User__details-status">{status}</p>
             </div>
+            
         </div>
     )
 }
