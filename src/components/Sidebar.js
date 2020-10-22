@@ -2,7 +2,7 @@
 import React from "react";
 import "./Sidebar.css";
 //import  {contacts}  from "./static_data";
-import  User  from "./User";
+import  User  from "../containers/User";
 
 const Sidebar=({contacts})=>{
     
