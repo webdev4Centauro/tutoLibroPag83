@@ -1,4 +1,4 @@
-import {generateUser} from "../static-data";
+import { generateUser } from "../static_data";
 
 //export default function user(state={generateUser}, action){
 export default function user(state=generateUser(), action){

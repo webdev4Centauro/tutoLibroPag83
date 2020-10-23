@@ -10,17 +10,14 @@ const render=()=>{
   fancyLog();
   return ReactDOM.render(<App></App>, document.getElementById("root"));
 }
-
 render()
 store.subscribe(render);
 register();
 
 function fancyLog(){
-  console.log("%c Rendered with 👉👉👇", "backgound:purple; color:#FFF");
-  console.log(store.getState());
+//  console.log("%c Rendered with 👉👉👇", "backgound:purple; color:#FFF");
+  //console.log(store.getState());
 }
-
-
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />
